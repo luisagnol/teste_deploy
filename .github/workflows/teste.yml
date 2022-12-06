@@ -4,4 +4,4 @@ on:
         types: [open]
 jobs:
   call-another-reusable:
-    uses: action/luisagnol/teste_deploy/.github/workflows/secundario_wkf.yml@main
+    uses: luisagnol/teste_deploy/.github/workflows/secundario_wkf.yml@main
