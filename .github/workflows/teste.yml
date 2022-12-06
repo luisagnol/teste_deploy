@@ -3,5 +3,5 @@ on:
     issues:
         types: [open]
 jobs:
-  call-another-reusable:
-    uses: luisagnol/teste_deploy/.github/workflows/secundario_wkf.yml@main
+  call-workflow-2-in-local-repo:
+    uses: ./.github/workflows/secundario_wkf.yml
